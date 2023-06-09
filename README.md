@@ -9,6 +9,8 @@ This project is for frontend app with React for New aggregator app.
 
 -   Docker Compose 2.0.0 or later
 
+-   Npm 9.7.1 or latter
+
 ## Getting Started
 
 1. Clone this repository to your local machine:
@@ -26,6 +28,8 @@ cd innoscripta_frontend
 3. Build and start the Docker containers:
 
 ```
+docker-compose build --no-cache
+
 docker-compose up
 ```
 
